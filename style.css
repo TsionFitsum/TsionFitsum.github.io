@@ -1,0 +1,75 @@
+
+body {
+  
+  margin: 0;
+  display: grid;
+  place-items: center;
+  position:relative;
+}
+#doneBy{
+  position:relative;
+  text-align:center;
+  font-size:20px;
+  margin-top:-450px;
+  color:white;
+  
+}
+#author{
+  text-align:center;
+}
+p{
+   font-size: 30px;
+}
+.box {
+  width: 500px;
+   background: white;
+    color: #bbb;
+  margin:250px;
+  padding:30px;
+   border: 2px ;
+  border-radius:15px;
+  position: relative;
+
+  
+}
+i{
+  color:white;
+  
+    
+}
+.btn {
+  position:relative; 
+  right:-300px;
+  padding:15px;
+  border-radius:15px;
+  border:white;
+  color: white;
+ font-size: 15px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
